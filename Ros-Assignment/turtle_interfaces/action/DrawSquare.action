@@ -1,0 +1,6 @@
+float64 side_length
+---
+bool success
+string message
+---
+int32 current_side

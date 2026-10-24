@@ -1,0 +1,9 @@
+turtle_interfaces/TargetPose target_pose
+---
+bool success
+float64 final_distance
+---
+float64 distance_to_goal
+float64 current_x
+float64 current_y
+float64 current_yaw

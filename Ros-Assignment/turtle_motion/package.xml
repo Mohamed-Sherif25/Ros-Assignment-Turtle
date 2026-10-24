@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>turtle_motion</name>
+  <version>0.0.1</version>
+  <description>Turtlesim motion control: goToPose, reset, square and speed-limit nodes</description>
+  <maintainer email="student@alexu.edu.eg">David Victor Kamal</maintainer>
+  <license>Apache-2.0</license>
+
+  <depend>rclpy</depend>
+  <depend>geometry_msgs</depend>
+  <depend>std_srvs</depend>
+  <depend>action_msgs</depend>
+  <depend>rcl_interfaces</depend>
+  <depend>turtlesim</depend>
+  <depend>turtle_interfaces</depend>
+
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <exec_depend>ros2launch</exec_depend>
+  <exec_depend>ros2action</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
